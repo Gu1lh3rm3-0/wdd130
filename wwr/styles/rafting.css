@@ -1,0 +1,21 @@
+:root{
+    background-color: #FFFFFF;
+}
+
+.hero div{
+    position: relative;
+}
+
+.hero h1, article{
+    position: absolute;
+}
+
+.hero img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+h1{
+    color: #06BA63;
+}
