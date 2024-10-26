@@ -122,3 +122,50 @@ section h2{
     display: flex;
     justify-content: center;
 }
+
+.gallery2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: space-around;
+    gap: 10px;
+}
+
+.first>img{
+    width: 50%;
+}
+
+.second>img{
+    width: 50%;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--navigation-hover-link-color);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+  
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+  
+thead{
+    background-color: var(--navigation-bg-color);
+}
+  
+th,
+td {
+    border: 1px solid var(--additional-accent-color);
+    padding: 8px 10px;
+}
+  
+td:last-of-type {
+    text-align: center;
+}
+  
+tbody > tr:nth-of-type(even) {
+    background-color:aliceblue;
+}
+  
