@@ -4,8 +4,8 @@
     /* Primary colors */
     --primary-color: #1E90FF; 
     --secondary-color: #2E8B57; 
-    --accent-color: #DAA520; 
-    --additional-accent-color: #708090; 
+    --accent-color: #FDE74C; 
+    --accent2-color: #788695; 
 
     /* Fonts */
     --heading-font: "Arima";
@@ -22,7 +22,6 @@
 body {
     font-family: var(--heading-font);
     font-family: var(--paragraph-font);
-    background-color: var(--background-color);
     max-width: 960px;
     margin: 0 auto; 
     padding: 20px;
@@ -33,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2rem;
     font-family: var(--heading-font);
     color: var(--primary-color); 
+}
+
+a {
+    text-decoration: none;
 }
 
 body h1{
@@ -71,7 +74,7 @@ nav {
 .hero {
     position: relative;
 }
-.hero article {
+.happy-client {
     width: 80%;
     top: 8rem;
     position: absolute;
@@ -81,17 +84,20 @@ nav {
     background-color: rgba(30, 144, 255, .7);
     color: white;
 }
-.hero h1 article {
+
+.hero h1{
     position: absolute;
-    
+    background-color:#FDE74C 
 }
+
 .hero img{
+    display: block;
     width: 100%;
     height: auto;
  
  
 }
-.hero article img {
+.happy-client img {
     float: right;
     width: 200px;
 }
@@ -157,7 +163,7 @@ thead{
   
 th,
 td {
-    border: 1px solid var(--additional-accent-color);
+    border: 1px solid var(--accent2-color);
     padding: 8px 10px;
 }
   
