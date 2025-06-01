@@ -18,6 +18,8 @@ header {
 }
 
 .navigation {
+    left: 350px;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -64,8 +66,28 @@ nav, p, section, article {
     padding: 8px;
 }
 
+.history img {
+    width: 150px;
+}
+
 .history {
-    flex-direction: column;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.history h2{
+    bottom: 355px;
+    right: 900px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.socialmedia {
+    display: flex;
+    justify-content: end;
 }
 
 .socialmedia a {
@@ -87,6 +109,25 @@ nav, p, section, article {
     top: 100px;
     position: absolute;
     background-color: var(--secondary-color);
+}
+
+.adventure h2 {
+    right: 830px;
+    bottom: 200px;
+    position: absolute;
+    display: flex;
+    color: #000000;
+}
+
+.adventure {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.adventure img {
+    margin: 20px;
+    width: 200px;
 }
 
 h1 {
