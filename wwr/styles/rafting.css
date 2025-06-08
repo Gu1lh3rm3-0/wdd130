@@ -145,3 +145,73 @@ h1 {
     width: 100px;
 }
 
+.title {
+    position: relative;
+    background-color: #044E62;
+    text-align: center;
+    color: var(--primary-color);
+    width: auto;
+    border: 3px solid var(--accent2-color);
+}
+
+.title img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.title article img {
+    float: right;
+    width: 100px;
+}
+
+.contact {
+    gap: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.email {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.email h2 {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+}
+
+.number {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.number h2 {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+}
+
+.google {
+    border: 2px solid #000000;
+    display: grid;
+    grid-template-columns: 295px 300px;
+}
+
+.address {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.address h2 {
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+}
+
