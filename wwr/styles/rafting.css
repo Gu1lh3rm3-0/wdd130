@@ -241,3 +241,7 @@ fieldset {
 input {
     max-width: 200px;
 }
+
+.wireframe {
+    color: #000000
+}
