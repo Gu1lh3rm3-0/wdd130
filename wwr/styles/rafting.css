@@ -141,7 +141,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -236,7 +236,7 @@ h2 {
 
 .form {
     display: grid;
-    grid-template-columns: 1rem 1 rem;
+    grid-template-rows: auto auto;
     gap: 5px;
 }
 
@@ -249,6 +249,133 @@ h2 {
     justify-self: start;
 }
 
-.wireframe {
-    color: #000000
+.trips {
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--secondary-color);
+    display: grid;
+    justify-items: center;
+    grid-template-rows: auto auto;
+    gap: 60px;
 }
+
+.trips h1 {
+    position: relative;
+    color: var(--accent2-color);
+    background: none;
+}
+
+.trips button {
+    width: 100px;
+    height: 55px;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    border: 2px solid var(--accent2-color);
+}
+
+.news {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 90px 200px;
+    gap: 20px;
+}
+
+.next {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.next img {
+    border: 2px solid var(--accent2-color);
+}
+
+.nxtadventure {
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sunrise {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent2-color);
+}
+
+.jungle {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent2-color);
+}
+
+.hike {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--accent2-color);
+}
+
+.sunrise img {
+    width: 350px;
+}
+
+.jungle img {
+    width: 350px;
+}
+
+.hike img {
+    width: 350px;
+}
+
+table {
+    left: 222px;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid var(--accent2-color);
+    font-family: var(--texting-font);
+    font-size: 1rem;
+}
+
+caption {
+    font-family: var(--heading-font);
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+thead, tfoot {
+    background-color: var(--accent1-color);
+}
+
+thead th{
+    color: var(--primary-color);
+}
+th, td {
+    border: 1px solid var(--accent2-color);
+    padding: 8px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+.button {
+  background-color: var(--accent1-color);
+  border: none;
+  color: var(--primary-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+

@@ -2,16 +2,14 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Home page of White Water Rafting">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>White Water Rafting | Home</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:ital,wght@0,100..900;1,100..900&family=PT+Serif:wght@400;700&&display=swap" rel="stylesheet">
+    <meta name="description" content="Home page of White Water Rafting">
+    <meta name="author" content="Guilherme Oliveira">
 </head>
 <body>
     <header>
@@ -25,27 +23,27 @@
     </header>
     <main>
         <div class="hero">
-            <img src="images/rafting16_1024.jpg" alt="Rafting">
+            <img src="images/rafting-hero-img2.jpg" alt="Rafting">
             <h1>White Water Rafting</h1>
         </div>
         <form>
-            <fieldset>
+            <fieldset class="news">
                 <legend>Subscribe on the Newsletter!</legend>
                 <label for="fullname">Full Name:</label>
-                <input type="text" name="fullname" id="fullname">
+                <input type="text" name="fullname" id="fullname" placeholder="Full Name">
                 <label for="useremail">E-mail:</label>
-                <input type="text" name="useremail" id="useremail">
+                <input type="text" name="useremail" id="useremail" placeholder="E-mail">
             </fieldset>
+            <button type="submit">Send a Request</button>
         </form>
-        <button type="submit">Send a Request</button>
-        <p>We have some trips that may be of your interest to see. Click on this link to go to our <a href="trips.html">Trips</a> page. If you need something else or even have a question you can go to the <a href="contact.html">Contact Us</a> page.</p>
-        <h2>Adventure Awaits You!</h2>
-        <section class="adventure">
-            <img src="images/rafting1.jpg" alt="rafting1">
-            <img src="images/rafting2.jpg" alt="rafting1">
-            <img src="images/rafting3.jpg" alt="rafting1">
-            <img src="images/rafting4.jpg" alt="rafting1">
-            <img src="images/rafting5.jpg" alt="rafting1">
+        <section class="trips">
+            <h1>We have some trips that may be of your interest to see. Click on this button to go to our Trips page.</h1>
+            <a href="contact.html" class="button">Trips</a>
+        </section>
+        <h2>Where will be your next adventure?</h2>
+        <section class="next">
+            <img src="images/rafting19_adventure3.jpg" alt="adventure2">
+            <img src="images/rafting26_adventure1.jpg" alt="adventure1">
         </section>
     </main>
     <footer>
