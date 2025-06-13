@@ -2,16 +2,15 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Contact the White Water Rafting if you have any question">
+   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White Water Rafting | Contact Us</title>
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto:ital,wght@0,100..900;1,100..900&family=PT+Serif:wght@400;700&&display=swap" rel="stylesheet">
+    <meta name="description" content="Contact the White Water Rafting if you have any question">
+    <meta name="author" content="Guilherme Oliveira">
 </head>
 <body>
     <header>
@@ -25,7 +24,7 @@
     </header>
     <main>
         <div class="title">
-            <h2>White Water Rafting | Contact Us</h2>
+            <h1>White Water Rafting | Contact Us</h1>
             <p>We love questions and feedback – and we're always happy to help! Here are some ways to contact us.</p>
         </div>
         <div class="contact">
@@ -64,29 +63,31 @@
             </figure>
         </div>
         <form>
-            <fieldset>
+            <fieldset class="form">
                 <legend>Send us a message!</legend>
                 <label for="fullname">Full Name:</label>
-                <input type="text" name="fullname" id="fullname">
+                <input type="text" name="fullname" id="fullname" placeholder="Full Name">
                 <label for="useremail">E-mail:</label>
-                <input type="text" name="useremail" id="useremail">
-                <label for="purpose">Purpose of The Message:</label>
-                <select name="purpose" id="purpose">
-                    <option value="general-innquiry">General Inquiry</option>
-                    <option value="reservation-question">Reservation Question</option>
-                    <option value="website-suggestion">Website Suggestion</option>
-                </select>
+                <input type="text" name="useremail" id="useremail" placeholder="E-mail">
+                <Label for="Purpose">Purpose of the message: </Label>
+                <label for="general">General Inquiry</label>
+                <input type="radio" name="purpose" id="general">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" name="purpose" id="reservation">
+                <label for="website">Website Suggestion</label>
+                <input type="radio" name="purpose" id="website">
                 <label for="message">Message:</label>
                 <textarea name="message" id="message" rows="4"></textarea>
                 <label for="checkbox">Please subscribe me to the monthly newsletter</label>
                 <input type="checkbox" id="checkbox" name="checkbox">
             </fieldset>
+            <button type="submit">Send the Message</button>
         </form>
-        <button type="submit">Send the Message</button>
+        
     </main>
     <footer>
         <p>&copy;2025 White Water Rafting, Guilherme Oliveira</p>
-        <a class="Wireframe" href="https://app.moqups.com/unsaved/66bd2f21/edit/page/ad12de680">
+        <a class="Wireframe" href="https://app.moqups.com/iewJkzzdVWe3r35e1et5PT2IIXRMUOoL/view/page/ad64222d5">
             <p>Wireframe Model</p>
         </a>
         <nav class="socialmedia">

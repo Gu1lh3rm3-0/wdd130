@@ -12,7 +12,7 @@ p {
 }
 
 header {
-    
+
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 120px 1fr 1fr;
@@ -151,7 +151,7 @@ h1 {
     width: 100px;
 }
 
-.title {
+.title h1 {
     position: relative;
     background-color: #044E62;
     text-align: center;
@@ -234,14 +234,19 @@ h2 {
     position: relative;
 }
 
-fieldset {
-    display: flex;
-    flex-direction: column;
+.form {
+    display: grid;
+    grid-template-columns: 1rem 1 rem;
     gap: 5px;
 }
 
-input {
-    max-width: 200px;
+.form input:nth-of-type(1) {
+    grid-row: 1;
+}
+
+.form input {
+    grid-column: 1;
+    justify-self: start;
 }
 
 .wireframe {
